@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v3.0.0 (2025-08-07)
+
+### Features
+
+- Added another breaking change in shorthand
+  ([`84f98dd`](https://github.com/sumsuddin/test_repo/commit/84f98ddf8fbe0fed18bbd3b1d62779abbed224f4))
+
+
 ## v2.0.0 (2025-08-07)
 
 ### Features
