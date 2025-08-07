@@ -22,7 +22,7 @@ jobs:
       - name: Install Python Semantic Release
         run: python3 -m pip install python-semantic-release
 
-      - name: Run semantic release
+      - name: Run semantic release --no-push
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: semantic-release version
