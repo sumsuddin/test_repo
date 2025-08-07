@@ -9,7 +9,7 @@ release:
   script:
     - python -m pip install python-semantic-release
     - |
-      semantic-release publish -v
+      semantic-release --verbose publish
   variables:
     # Use the variable you created in the GitLab settings
     GITLAB_TOKEN: $GITLAB_TOKEN
