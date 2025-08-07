@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.0.2 (2025-08-07)
+
+### Bug Fixes
+
+- Fixed in commit
+  ([`c9b9e62`](https://github.com/sumsuddin/test_repo/commit/c9b9e62e10b15a507d2e6d25cb13176bb2a6ee21))
+
+
 ## v1.0.1 (2025-08-07)
 
 ### Bug Fixes
