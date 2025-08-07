@@ -2,6 +2,39 @@
 
 <!-- version list -->
 
+## v4.1.0 (2025-08-07)
+
+### Bug Fixes
+
+- Added cicd to master again!
+  ([`96e4937`](https://github.com/sumsuddin/test_repo/commit/96e4937c4cd3a383b70a9daaf35648cbff333c2e))
+
+- Added pat during checkout
+  ([`e757839`](https://github.com/sumsuddin/test_repo/commit/e7578391027c460dd0e8820f0d784a3550b6cd61))
+
+- Added the eof
+  ([`507cbda`](https://github.com/sumsuddin/test_repo/commit/507cbdaf8fe875c8797283e7844b4c21befd56d0))
+
+- Minor fix
+  ([`65dfed4`](https://github.com/sumsuddin/test_repo/commit/65dfed462d387f07639d36b9ae93f6216aea97c0))
+
+- Removed git push from semantic version
+  ([`4e6410e`](https://github.com/sumsuddin/test_repo/commit/4e6410e114a155babb0254acb3ea6f84b3d77fb1))
+
+### Features
+
+- Added auto semver
+  ([`7ec06f7`](https://github.com/sumsuddin/test_repo/commit/7ec06f72bf19c3699035755908fd540b0b4f3053))
+
+- Added readme
+  ([`5e10649`](https://github.com/sumsuddin/test_repo/commit/5e10649e787b8606c75038f702a8ab7dad6fb8fa))
+
+### Performance Improvements
+
+- Added ci-cd
+  ([`1a935e9`](https://github.com/sumsuddin/test_repo/commit/1a935e989a059784039b629f1938220fb80dba47))
+
+
 ## v4.0.0 (2025-08-07)
 
 ### Bug Fixes
