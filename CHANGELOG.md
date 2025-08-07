@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v4.0.0 (2025-08-07)
+
+### Bug Fixes
+
+- Breaking bug fix
+  ([`9cbd7ff`](https://github.com/sumsuddin/test_repo/commit/9cbd7ff8429ea9b9c859062a1234dbbc7b479c6d))
+
+
 ## v3.0.0 (2025-08-07)
 
 ### Features
