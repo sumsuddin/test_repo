@@ -3,11 +3,11 @@ stages:
 
 release:
   stage: release
-  image: python:3.9  # Use a Python image that fits your project needs
+  image: python:3.10
   rules:
-    - if: $CI_COMMIT_BRANCH == 'master'  # Only run on the main branch
+    - if: $CI_COMMIT_BRANCH == 'master'
   script:
-    - git checkout master
+    - git checkout $CI_COMMIT_BRANCH
     - python -m pip install python-semantic-release
     - |
       semantic-release --verbose publish
