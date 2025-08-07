@@ -2,6 +2,18 @@
 
 <!-- version list -->
 
+## v2.0.0 (2025-08-07)
+
+### Features
+
+- Add new API endpoint
+  ([`d9f0bdc`](https://github.com/sumsuddin/test_repo/commit/d9f0bdc3ceedd9378237c0cb91f8577fa0cf8e7a))
+
+### Breaking Changes
+
+- The old endpoint /api/users is no longer supported.
+
+
 ## v1.0.3 (2025-08-07)
 
 ### Bug Fixes
