@@ -22,8 +22,13 @@ jobs:
       - name: Install Python Semantic Release
         run: python3 -m pip install python-semantic-release
 
+      - name: Configure Git for Semantic Release
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git"
+
       - name: Run semantic release
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: semantic-release version
-        
