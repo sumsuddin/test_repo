@@ -10,6 +10,6 @@ release:
     - git checkout master
     - python -m pip install python-semantic-release
     - |
-      semantic-release --verbose
+      semantic-release --verbose version
   variables:
     GITLAB_TOKEN: $GITLAB_TOKEN
