@@ -7,9 +7,9 @@ release:
   rules:
     - if: $CI_COMMIT_BRANCH == 'master'
   script:
-    - git checkout $CI_COMMIT_BRANCH
+    - git checkout master
     - python -m pip install python-semantic-release
     - |
-      semantic-release version
+      semantic-release --verbose
   variables:
     GITLAB_TOKEN: $GITLAB_TOKEN
