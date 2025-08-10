@@ -12,5 +12,4 @@ release:
     - |
       semantic-release version
   variables:
-    # Use the variable you created in the GitLab settings
     GITLAB_TOKEN: $GITLAB_TOKEN
