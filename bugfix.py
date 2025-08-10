@@ -4,3 +4,4 @@ fixed in commit message!
 fixed in commit!
 fixed another in commit message!
 bug fix breaking change!
+bug resolved!
